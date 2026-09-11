@@ -1,0 +1,32 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python & Virtual Environments
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+
+# Audio & Media Cache
+audio/
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.webm
+
+# Local Vector Storage & App Cache
+.ytrag/
+~/.ytrag/
+
+# OS & Editor files
+.DS_Store
+.vscode/
+.idea/
