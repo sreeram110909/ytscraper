@@ -24,8 +24,8 @@ Every generic RAG demo returns a blob of text. This returns *a place in a video*
 | Transcription | `faster-whisper` (CTranslate2), `large-v3`, batched |
 | Chunking | hand-written, time-window based |
 | Embeddings | `sentence-transformers` + `BAAI/bge-m3` (1024-dim) |
-| Vector store | **Qdrant Cloud** — same as day14 / day15 |
-| LLM | **Groq** `openai/gpt-oss-120b` — same as day15 / hiremeai |
+| Vector store | **Qdrant Cloud** |
+| LLM | **Groq** `openai/gpt-oss-120b` |
 | CLI | `typer` + `rich` |
 | API + UI | `FastAPI` + a single HTML page with the YouTube IFrame API |
 
